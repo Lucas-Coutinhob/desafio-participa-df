@@ -35,19 +35,16 @@ Abordagem **híbrida** combinando:
 ##  Estrutura do Repositório
 ```
 desafio-participa-df/
-├── data/
-│   └── AMOSTRA_e-SIC.xlsx          # Dataset de amostra
-├── notebooks/
-│   ├── 01_analise_exploratoria.ipynb   # Análise e descoberta
-│   ├── 02_modelo_final.ipynb           # Solução final
-│   └── 03_experimentos_ml.ipynb        # Testes com ML
-├── output/
-│   └── resultado_classificacao.csv     # Resultado da classificação
-├── src/
-│   └── detector.py                     # Código do modelo
-├── .gitignore
+├── AMOSTRA_e-SIC.xlsx
+├── 01_analise_exploratoria.ipynb
+├── 02_modelo_final.ipynb
+├── 03_experimentos_ml.ipynb
+├── resultado_classificacao.csv
+├── detector.py
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+├── LICENSE
+└── .gitignore
 ```
 
 ---
@@ -202,4 +199,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - Controladoria-Geral do Distrito Federal (CGDF)
 - Desafio Participa DF
 - Administração Regional do SIA
+
 - Luisa Viana (minha futura esposa e mãe da minha filha)
